@@ -1,0 +1,33 @@
+关于网站
+--------------
+***
+本网站主要介绍 Yii 框架应用的一些技巧, 使用方法, 教程和常见问题.
+
+如果你有好的文章、技巧或使用方法欢迎在本站 [发表](http://www.yiiwiki.com/wiki/write)。
+
+如果我们的内容侵犯了您的版权请 [与我联系](http://www.yiiwiki.com/site/contact)，我们会及时处理。
+
+关于程序
+--------------
+***
+程序采用 B/S 架构， LAMP/WAMP 环境， [YiiFramework](http://www.yiiframework.com "YiiFramework") 框架强力支持。
+
+本程序版本控制采用 SVN ，感谢 [SVN 源码托管](http://www.oksvn.com "SVN 源码托管") 免费提供 SVN 空间。
+
+项目地址: [http://www.oksvn.com/Project/Detail-10606.shtml](http://www.oksvn.com/Project/Detail-10606.shtml "http://www.oksvn.com/Project/Detail-10606.shtml")
+
+更多请查看 [版本说明](http://www.yiiwiki.com/page/version)
+
+关于作者
+------
+***
+
+* **姓名**： 张迪
+* **性别**： 男
+* **出生年月**： 1987-02
+* **籍贯**： 河北省衡水市
+* **现居于**： 北京市
+* **个人主页**： [Diego's Blog](http://www.phpdiego.com "张迪的博客")
+* **QQ**:23143248
+* **E-mail**： <zhangdi5649@126.com>
+* **微博**：[迪张](http://weibo.com/mydeepeye "迪张的微博")

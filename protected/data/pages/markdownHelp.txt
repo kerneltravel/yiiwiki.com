@@ -1,0 +1,117 @@
+# markdown 语法帮助
+
+## 1. 代码和预格式化文本
+缩进4个空格可以创建一个 _<pre\><code\>_ 块
+显示效果：
+
+    printf("goodbye world!");  /* his suicide note
+                                  was in C */
+
+_里面的html标签和markdown标签都将被忽略_
+
+## 2. 代码块
+代码块使用3个~开始和结束
+
+    ~~~
+    printf("goodbye world!");  /* his suicide note
+                                  was in C */
+    ~~~
+
+## 3. 语法高亮的源代码
+在开始的三个~下面一行加上 _[lang\]_ , 代码就会高亮显示.
+
+    ~~~
+    [php]
+    echo 'hello world';
+    ~~~
+
+可用的语言包括: css, html, javascript, php, java, sql, ruby, xml, perl, python等.
+
+## 4. 内联代码
+使用反引号来创建内联 <code\>
+
+    Press the `<Tab>` key, then type a `$`.
+
+## 5. 换行符
+在要结束行的末尾输入两个空格就会生成一个 <br/> 换行符
+
+    How do I love thee?  Let me count the ways
+
+## 6. 斜体和加粗
+
+    *斜体*，_这也是斜体_
+    **加粗**，__这也是加粗__
+    ***加粗并斜体***，___这也是加粗并斜体___
+
+## 7. 基本链接
+
+有三种方式来写链接：
+
+    内嵌的方式 [Google](http://www.google.com/).
+    行号列标表示法 [Google][1].
+    非常易读的方式 [Yahoo!][yahoo].
+
+    [1]: http://www.google.com/
+    [yahoo]: http://www.yahoo.com/
+
+对于链接的定义可以出现在任何地方，链接定义的字符[1\]和[yahoo\]可以是任意的唯一字符串，并且它们是不区分大小写的。  
+您还可以使用标准的HTML超链接语法
+
+    <a href="http://example.com" title="example">example</a>
+
+把链接括在尖括号中
+
+    <http://example.com>
+
+## 8. 标题
+使用 # 来表示标题，几个#号表示h几
+如
+
+    # 标题1
+
+表示
+
+    <h1>标题1</h1>
+
+## 9. 简单的列表
+
+<ul\> 列表:
+
+    - Use a minus sign for a bullet
+    + Or plus sign
+    * Or an asterisk
+
+<ol\> 列表:
+
+    1. Numbered lists are easy
+    2. Markdown keeps track of the numbers for you
+    7. So this will be item 3.
+
+双倍行距列表:
+
+    - This list gets wrapped in <p> tags
+
+
+    - So there will be extra space between items
+
+## 10. 简单的块引用
+使用在行的开始位置使用 > 号，来创建块引用 <blockquote\>.
+
+    > The syntax is based on the way email programs
+    > usually do quotations. You don't need to hard-wrap
+    > the paragraphs in your blockquotes, but it looks much nicer if you do.  Depends how lazy you feel.
+
+块引用中的列表
+
+    > - A list in a blockquote
+    > - With a > and space in front of it
+    >    *
+
+块引用中的预格式化文本
+
+    >     Indent five spaces total.  The first
+    >     one is part of the blockquote designator.
+
+## 11. 更多语法
+
+更多语法说明请查看 [official Markdown syntax reference page](http://daringfireball.net/projects/markdown/syntax)

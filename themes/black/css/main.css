@@ -1,0 +1,671 @@
+html{
+    background: #222;
+}
+body{
+    margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 12px ;
+    background: #888;
+}
+a{
+    color: #3B6FBA;
+    text-decoration: none;
+}
+a:hover{
+    color: #A00;
+    text-decoration: underline;
+}
+.button{
+    background: url(../images/input-bg.png);
+    height:30px;
+    line-height: 30px;
+    display: inline-block;
+    border:none;
+    width: 100px;
+    color:#555!important;
+    font-size:1.2em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.button:hover{
+    background: url(../images/input-bg.png) 0 -30px;
+    color:#333!important;
+    text-decoration: none;
+}
+#header-wrap,#footer-wrap{
+    background: #222;
+}
+#top-wrap{
+    background: #444;
+    padding:2px 0;
+    overflow: auto;
+}
+#top,#mainmenu,#logo,#footer,#link,#breadcrumbs{
+    width: 950px;
+    margin: 0 auto;
+}
+#top,#top a{
+    font-weight: bold;
+    color:#fefefe;
+}
+#top a{
+    color:#fff;
+}
+#logo{
+    font-size: 30px;
+}
+#logo a{
+    color:#fff;
+    text-decoration: none;
+}
+
+#mainmenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+#mainmenu ul li{
+    float: left;
+    display: block;
+    margin-right: 10px;
+}
+#mainmenu ul li a{
+    color:#999;
+    border-top: 3px solid #222;
+    height: 100%;
+    display: block;
+    padding:3px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#mainmenu ul li.active a,#mainmenu ul li a:hover{
+    text-decoration: none;
+}
+#mainmenu ul li.active a{
+    border-top: 3px solid #16A314;
+    color:#fff;
+}
+#mainmenu ul li a:hover{
+    color: #fff;
+}
+
+#page{
+    background: #fff;
+    margin: 20px auto;
+    border:3px solid #666;
+}
+#content{
+    padding:20px;
+}
+#sidebar,#help-sidebar{
+    padding: 20px 0 0 10px;
+}
+#link{
+    background: #fff;
+    border-top:3px solid #666;
+    border-left:3px solid #666;
+    border-right:3px solid #444;
+    border-bottom:3px solid #444;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#link h4{
+    font-size: 14px;
+    padding:5px 10px;
+    margin: 0;
+}
+#link h4 a{
+    color:#3B6FBA;
+}
+#link h4 a.apply{
+    font-size: 12px;
+}
+#link .content{
+    padding:0 20px;
+}
+#link .content a{
+    padding:5px 10px;
+}
+#footer{
+    padding-top:20px;
+    overflow: auto;
+}
+#footer,#footer h3{
+    color:#fff;
+}
+#footer h3{
+    margin-bottom: 0;
+}
+#footer a{
+    color:#999;
+}
+#footer a:hover{
+    color:#0A0;
+}
+#footer #tongji{
+    text-align: right;
+}
+
+.breadcrumbs{
+    background: #666;
+    padding:5px 10px;
+    color:#fff;
+}
+.breadcrumbs a{
+    color: #fff;
+}
+.breadcrumbs a:hover{
+    color:#aaa;
+    text-decoration: none;
+}
+#sideTop{
+    position: fixed;
+    _position: absolute;
+    left: 50%;
+    margin-left: 478px;
+    top: 100%;
+    background:#fff;
+    border:3px solid #666;
+    padding: 0 5px ;
+    overflow: auto;
+    _top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0))-100);
+    margin-top: -200px;
+    width: 1em;
+    cursor: pointer;
+    layout-flow:vertical-ideographic;
+}
+#sideTop:hover{
+    text-decoration: none;
+}
+
+.portlet
+{
+    font-size: 14px;
+}
+
+.portlet b{
+    color: #565656;
+}
+
+.portlet strong{
+    font-size: 1.2em;
+    color:#222;
+}
+
+.portlet a{
+    text-decoration: none;
+}
+
+.portlet-decoration
+{
+}
+
+.portlet-title
+{
+	font-size: 1.1em;
+    color:#222;
+    font-weight: bold;
+}
+
+.portlet-content
+{
+	font-size:1em;
+	margin: 5px 0 15px 0;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+.portlet-content ul.article-list{
+    list-style-type:disc;
+    padding-left: 20px;
+}
+
+.portlet-content li
+{
+}
+div.view
+{
+    line-height:1.5em;
+    padding:5px 0;
+}
+div.view .title{
+    line-height: 24px;
+    font-size: 14px;
+    margin:0 0 10px 0;
+    font-weight: bold;
+    border-bottom: 1px dashed #ddd;
+    padding:5px 0 5px 0;
+}
+div.view .teaser .info{
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+div.view .teaser .info a{
+    color:#8284CC;
+}
+div.view .teaser .info a:hover{
+    color:green;
+}
+
+div.view .teaser .tags{
+    padding:3px 0;
+}
+.wiki-view>h1{
+    color: #555;
+    font-size: 25px;
+    font-weight: bold;
+}
+.wiki-view .content h1,.wiki-view .content h2,.wiki-view .content h3,.wiki-view .content h4,.wiki-view .content h5,.wiki-view .content h6{
+    font-weight: bold;
+    color: #444;
+}
+.wiki-view .content h1{
+    font-size:1.2em;
+}
+.wiki-view .content h2{
+    font-size: 1.6em;
+}
+.wiki-view .content h3{
+    font-size: 1.4em;
+}
+.wiki-view .content h4{
+    font-size: 1.2em;
+}
+.wiki-view .content{
+    color:#222;
+    font-size: 14px;
+}
+.wiki-view #toTop{
+    margin-left: 5px;
+}
+.wiki-view .follow-bar,.wiki-view .thumb-bar{
+    padding-bottom: 20px;
+}
+.wiki-view .follow-bar a.follow,.wiki-view .follow-bar a.unfollow,
+.wiki-view .thumb-bar a.thumb-up,.wiki-view .thumb-bar a.thumb-down,
+.wiki-view .thumb-bar a.report{
+    text-decoration: none;
+    line-height: 20px;
+}
+.wiki-view .follow-bar a.follow,.wiki-view .follow-bar a.unfollow{
+    padding-left: 18px;
+    margin-right: 10px;
+    color: gray;
+}
+.wiki-view .follow-bar a.follow{
+    background: url(../images/follow.png) no-repeat left;
+}
+.wiki-view .follow-bar a.unfollow{
+    background: url(../images/unfollow.png) no-repeat left;
+}
+.wiki-view .thumb-bar{
+    text-align: right;
+}
+.wiki-view .thumb-bar a.thumb-up,.wiki-view .thumb-bar a.thumb-down, .wiki-view .thumb-bar a.report{
+    padding-right:18px;
+    margin-left: 10px;
+}
+.wiki-view .thumb-bar a.thumb-up{
+    background: url(../images/thumb-up.png) no-repeat right;
+    color: green;
+}
+.wiki-view .thumb-bar a.thumb-down{
+    background: url(../images/thumb-down.png) no-repeat right;
+    color: red;
+}
+
+.wiki-view .thumb-bar a.report{
+    background: url(../images/report.png) no-repeat right;
+    color: #298dcd;
+}
+
+.hl-code pre{
+    display: block;
+    padding: 1em;
+    background: #F7F7F7;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    font-family: Menlo,Consolas,"Courier New",Courier,mono;
+    margin: 1em 0;
+    font-size: 10pt;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+code
+{
+	border-bottom: 1px dotted #ccc;
+	font-weight: bold;
+	color: #666;
+}
+pre
+{
+	display: block;
+	padding: 1em;
+	background:#fcfcfc;
+	border-top: 1px  solid #eee;
+	border-bottom: 1px  solid #eee;
+	font-family: Consolas, "Courier New", Courier, mono;
+	margin: 1em 0;
+	font-size: 10pt;
+}
+blockquote.tip, blockquote.info, blockquote.note
+{
+	border-top:1px solid #0cf;
+	border-bottom:1px solid #0cf;
+	padding:0em 1em 0em 55px;
+	margin: 1em 0em;
+	border-color: #E4DFB8;
+	background-color: #FFFAE6;
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+	background-image: url(../images/tip.gif);
+    font-style: normal;
+}
+
+blockquote.note
+{
+	background-color:#FFE6E6;
+	border-color:#D9C3C3;
+	background-image: url(../images/note.gif);
+}
+
+blockquote.info
+{
+	border-color: #B4DAA5;
+	background-color: #EBFFCE;
+	background-image: url(../images/info.gif);
+}
+
+.tocs{
+    float: right;
+    background: #F9F9F9;
+    border: 1px solid #dedede;
+    padding: .7em 1em;
+    margin: .75em 0 1em 1em;
+    font: 1em Helvetica;
+
+    width: 210px;
+    line-height: 125%;
+}
+.tocs .level1,.tocs .level2,.tocs .level3,.tocs .levelh4,.tocs .level5,.tocs .level6{
+    font-size: 1em;
+    line-height:1.5em;
+}
+.tocs .level2{
+    margin-left: 15px;
+}
+.tocs .level3{
+    margin-left: 30px;
+}
+.tocs .level4{
+    margin-left: 45px;
+}
+.tocs .level5{
+    margin-left: 60px;
+}
+.tocs .level6{
+    margin-left: 75px;
+}
+.tocs div a{
+    text-decoration: none;
+}
+.tocs div a:hover{
+    color: green;
+}
+.comment .hl-code pre{
+    background: #FEFEFE;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+div.tips{
+    background: #FFF6BF;
+    padding: 5px 10px;
+    border: 1px solid #FFD324;
+    color:#333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+div.tips span.category,div.tips span.attribute,div.tips span.tag{
+    font-weight: bold;
+}
+
+div.tips span.category{
+    color:blue;
+}
+
+div.tips span.attribute{
+    color:green;
+}
+
+div.tips span.tag{
+    color:red;
+}
+
+span.keywords{
+    color: red;
+}
+
+a.close{
+    background: url(../images/close.png) no-repeat center left;
+    padding-left: 15px;
+    text-decoration: none;
+    color: #222;
+}
+
+#comments .comment{
+    background: whiteSmoke;
+    padding: .5em 1em;
+    margin-bottom: 1em;
+    border-radius:10px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#comments .comment .author{
+    line-height:25px;
+}
+#comments .comment .cid{
+    font-size: 1.8em;
+    color: #ccc;
+    font-weight: bold;
+    text-decoration: none;
+}
+#comments .comment .cid:hover{
+    color: #09c;
+}
+#comments .comment .time{
+    color: #888;
+    font-size: 0.8em;
+}
+#comments .comment .operations{
+    text-align: right;
+}
+#comments .comment .operations .update,
+#comments .comment .operations .delete{
+    display: inline-block;
+    padding-left: 30px;
+    line-height: 30px;
+    height: 30px;
+    font-size: 1.4em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #555;
+}
+#comments .comment .operations .update:hover,
+#comments .comment .operations .delete:hover{
+    color:#09c;
+
+}
+#comments .comment .operations .update{
+    background: transparent url(../images/update-comment.png) left center no-repeat;
+}
+#comments .comment .operations .delete{
+    background: transparent url(../images/delete-comment.png) left center no-repeat;
+}
+
+
+#user-sidebar,
+#user-content{
+    margin-top:20px;
+    background: #fff;
+}
+#user-content>*{
+    padding:0 20px
+}
+#user-sidebar .portlet-content{
+    margin: 0;
+}
+#user-sidebar .title,
+#user-content h1{
+    background: #666;
+    color:#fff;
+    padding:5px 10px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+#user-sidebar .title.last{
+    margin-bottom: 0;
+    height: 20px;
+}
+#user-sidebar ul{
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+#user-sidebar ul li{
+    height: 20px;
+}
+#user-sidebar ul li a{
+    color:#555;
+}
+
+#user-sidebar ul li a:hover,#user-sidebar ul li.active a:hover
+{
+    color: #489620;
+}
+#user-sidebar ul li.active a{
+    color: #B2001F;
+}
+a.info,
+a.password,
+a.article,
+a.comment,
+a.write-article,
+a.credit,
+a.space{
+    display: inline-block;
+    line-height: 16px;
+    height: 16px;
+    padding-left: 20px;
+}
+a.info{
+    background: url(../images/user.gif) no-repeat center left;
+}
+a.password{
+    background: url(../images/password.gif) no-repeat center left;
+}
+a.article{
+    background: url(../images/article.gif) no-repeat center left;
+}
+a.comment{
+    background: url(../images/comment.gif) no-repeat center left;
+}
+a.write-article{
+    background: url(../images/write-article.gif) no-repeat center left;
+}
+a.credit{
+    background: url(../images/credit.gif) no-repeat center left;
+}
+a.space{
+    background: url(../images/space.png) no-repeat center left;
+}
+#user-content h1{
+    font-size: 1.2em;
+}
+
+#link-view .items{
+    overflow: auto;
+}
+.link-view{
+    float: left;
+    margin: 5px;
+}
+.qtip-content{
+    word-wrap:break-word; overflow:hidden;
+}
+.wiki-revision{
+    font-size: 14px;
+    word-wrap:break-word;
+}
+.wiki-revision .revert {
+    text-align: right;margin: 1em 0;font-weight: bold;
+}
+.wiki-revision .entry {
+    margin: 0 0 1em;
+}
+.wiki-revision .label {
+    font-weight: bold;
+    color:#222;
+}
+.wiki-revision .unchanged {
+    color: green;float: right;
+}
+.wiki-revision .changed {
+    color: red;float: right;
+}
+.wiki-revision .diff {
+    padding: 1em;background: #fcfcfc;border-top: 1px solid #eee;border-bottom: 1px solid #eee;overflow: auto;
+}
+.wiki-revision .diff pre {
+    font-family: Menlo,Consolas,"Courier New",Courier,mono;font-size: 10pt;
+    border:none;
+}
+.wiki-revision .diff del {
+    background: #fee;color: #c03;
+}
+.wiki-revision .diff ins {
+    background: #dfd;color: #083;
+}
+.wiki-revision pre{
+    padding:0;margin:0;
+}
+#help-sidebar{
+    font-size: 14px;
+}
+#help-sidebar ul{
+    list-style: none;
+    padding:0 5px;
+}
+#help-sidebar ul li{
+    border-bottom: 1px dashed #ccc;
+    padding:0 0 0 18px;
+    line-height: 30px;
+    background: url(../images/page.png) left center no-repeat;
+}
+#help-sidebar ul li.active{
+    border-color: #D8582B;
+    background-image: url(../images/pointed.png);
+}
+#help-sidebar ul li.active a,
+#help-sidebar ul li a:hover{
+    font-weight: bold;
+}

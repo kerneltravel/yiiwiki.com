@@ -1,0 +1,72 @@
+ul.ywPager
+{
+	font-size:16px;
+	border:0;
+	margin:0;
+	padding:0;
+	display:inline;
+    line-height: 16px;
+}
+
+ul.ywPager li
+{
+	display:inline;
+}
+
+ul.ywPager a:link,
+ul.ywPager a:visited
+{
+	font-weight:bold;
+	color:#0e509e;
+    padding:1px 6px;
+	text-decoration:none;
+}
+
+ul.ywPager .page a
+{
+	font-weight:normal;
+}
+
+ul.ywPager a:hover
+{
+    color:#0a0;
+}
+
+ul.ywPager .selected a
+{
+	color:#a00;
+	font-weight:bold;
+}
+
+ul.ywPager .previous a,
+ul.ywPager .next a,
+ul.ywPager .first a,
+ul.ywPager .last a{
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+ul.ywPager .previous a{
+    background-image: url(prev.png);
+}
+ul.ywPager .next a{
+    background-image: url(next.png);
+}
+ul.ywPager .first a{
+     background-image: url(first.png);
+}
+ul.ywPager .last a{
+    background-image: url(last.png);
+}
+ul.ywPager .hidden.previous a{
+    background-image: url(prev-hidden.png);
+}
+ul.ywPager .hidden.next a{
+    background-image: url(next-hidden.png);
+}
+ul.ywPager .hidden.first a{
+     background-image: url(first-hidden.png);
+}
+ul.ywPager .hidden.last a{
+    background-image: url(last-hidden.png);
+}
+

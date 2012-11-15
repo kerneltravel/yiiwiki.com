@@ -1,0 +1,224 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font: 12px Arial,'Liberation Sans',FreeSans,sans-serif;
+	background: #EFEFEF;
+}
+a{
+    color: #3B6FBA;
+    text-decoration: none;
+}
+a:hover{
+    color:#D8582B;
+    text-decoration: underline;
+    font-weight: bold;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial;
+}
+h1{
+    color:#16A314;
+}
+h2{
+    color:#D8582B;
+    margin-bottom: 10px;
+}
+#page
+{
+	margin-bottom: 5px;
+	background: white;
+	border: 1px solid #CCC;
+    border-top: 0;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+    background: url(../images/top_bg.gif) repeat-x top;
+}
+
+#top{
+    height: 32px;
+    line-height: 32px;
+    margin: 0 auto;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+#content
+{
+    padding: 20px;
+}
+#sidebar
+{
+	padding: 10px 0 20px 0;
+    border-right: 1px solid #CCC;
+    font-family: Arial;
+}
+#sidemenu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#sidemenu>li span{
+    background: url(../images/menu-bar.png) 0 -36px;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px #333
+}
+#sidemenu>li:hover, #sidemenu>li.active{
+}
+#sidemenu>li:hover span, #sidemenu>li.active span
+{
+	background-position: 0 -144px;
+	text-decoration:none;
+}
+#sidemenu>li:hover ul li:hover a, #sidemenu>li.active ul li.active a{
+    font-weight: bold;
+}
+#sidemenu>li ul{
+    list-style: none;
+    padding:10px 20px;
+}
+#sidemenu>li ul li{
+    line-height: 20px;
+}
+#sidemenu>li li a{
+    text-decoration: none;
+}
+#sidemenu>li li a:hover{
+    text-decoration: underline;
+}
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.9em;
+	text-align: center;
+	border-top: 1px solid #CCC;
+}
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+div.breadcrumbs
+{
+	font-size: 1.1em;
+	padding: 5px 20px;
+    border-bottom: 1px solid #3B6FBA;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+    color: #3B6FBA;
+}
+div.breadcrumbs a:link,div.breadcrumbs a:visited,div.breadcrumbs a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button{
+    background: url(../images/input-bg.png);
+    height:30px;
+    line-height: 30px;
+    display: inline-block;
+    border:none;
+    width: 100px;
+    color:#555!important;
+    font-size:1.2em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none!important;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.button:hover{
+    background: url(../images/input-bg.png) 0 -30px;
+    color:#333!important;
+}
+
+/* jui dialog */
+.ui-dialog{
+    border:7px solid #858585!important;
+    padding: 0!important;
+}
+.ui-dialog-titlebar{
+    -moz-border-radius: 0!important;
+    -webkit-border-radius: 0!important;
+    border-radius: 0!important;
+    border: none!important;
+}
+.ui-dialog-title{
+    font: bold 1.2em ubuntu,sans-serif!important;
+}
+.ui-dialog-content{
+    font-size: 1.8em;
+    color:#c00!important;
+    padding-top: 20px!important;
+    text-align: center;
+    font-family: Arial;
+}
+div.search-form{
+    background: #F5F5F5;
+    padding:20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+    border-right: 2px solid #CCC;
+    border-bottom: 2px solid #CCC;
+}

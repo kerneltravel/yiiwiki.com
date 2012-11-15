@@ -1,0 +1,174 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 12px Arial;
+	background: #EFEFEF;
+}
+#page
+{
+	background: white;
+	border: 1px solid #6078BF;
+    border-bottom: 2px solid #6078BF;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+    background: url(../images/top_bg.gif) repeat-x top;
+}
+
+#top{
+    height: 32px;
+    line-height: 32px;
+    width:950px;
+    margin: 0 auto;
+}
+#logo
+{
+	padding: 10px 0;
+	font-size: 200%;
+    width: 950px;
+    text-indent: 1em;
+    border-left: 1px solid #6078BF;
+    border-right: 1px solid #6078BF;
+    margin: 0 auto;
+    background: #6078BF;
+    text-align: left;
+}
+#logo a{
+    color: #FFF;
+    text-decoration: none;
+}
+#footer
+{
+    width:950px;
+    margin: 0 auto;
+	font-size: 0.9em;
+	text-align: center;
+    padding-top: 10px;
+    line-height: 16px;
+}
+
+#doc-sidebar{
+    padding:10px 10px 20px 10px;
+    border-right: 1px solid #6078BF;
+}
+#content{
+    padding-top: 10px;
+}
+#doc-sidebar .treeview{
+    font-size: 1.1em;
+}
+#doc-sidebar .treeview{
+    text-decoration: none;
+    color:#3B6FBA;
+}
+#doc-sidebar .treeview a{
+    text-decoration: none;
+    color:#3B6FBA;
+}
+#doc-sidebar .treeview .hover{
+    color:#D8582B;
+}
+#doc-sidebar .treeview .selected{
+    font-weight: bold;
+    background: none;
+    color:#D8582B;
+}
+
+.tocs{
+    float: right;
+    background: #F9F9F9;
+    border: 1px solid #dedede;
+    padding: .7em 1em;
+    margin: .75em 0 1em 1em;
+    font: 1em Helvetica;
+
+    width: 210px;
+    line-height: 125%;
+}
+.tocs .level1,.tocs .level2,.tocs .level3,.tocs .levelh4,.tocs .level5,.tocs .level6{
+    font-size: 1em;
+    line-height:1.5em;
+}
+.tocs .level2{
+    margin-left: 15px;
+}
+.tocs .level3{
+    margin-left: 30px;
+}
+.tocs .level4{
+    margin-left: 45px;
+}
+.tocs .level5{
+    margin-left: 60px;
+}
+.tocs .level6{
+    margin-left: 75px;
+}
+.tocs div a{
+    text-decoration: none;
+}
+.tocs div a:hover{
+    color: green;
+}
+.wiki-view{
+    padding:20px;
+}
+.qucik-bar{
+    font-size: 14px;
+    line-height: 25px;
+}
+.qucik-bar  a{
+    color: #444;
+    text-decoration: none;
+}
+.qucik-bar a:hover{
+    color: #3B6FBA;
+}
+#title{
+    color: #6078BF;
+    border-bottom: 2px solid #6078BF;
+    border-top: 1px solid #6078BF;
+    padding:5px 10px;
+    background: #6078BF;
+    color: white;
+    font-size: 14px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+#info{
+    color: #6078BF;
+    text-align: right;
+    padding-right: 20px;
+}
+dl{
+    border:1px solid #D8582B;
+    margin-right: 20px;
+    background: #D8582B;
+}
+dl dt{
+    background: #D8582B;
+    padding:5px 10px;
+    color: #FFF;
+}
+dl dd{
+    background: #fff;
+    margin: 0;
+    padding:5px 10px;
+}
+dl dd a{
+    color:#6078BF;
+    text-decoration: none;
+}
+dl dd a:hover{
+    color:red;
+}
+#footer{
+    text-align: left;
+}#footer #tongji{
+    text-align: right;
+}
